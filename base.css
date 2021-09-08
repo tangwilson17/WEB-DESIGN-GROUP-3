@@ -20,18 +20,24 @@ body {
    display: flex;
    -webkit-flex-flow: row wrap;
    flex-flow: row wrap;    
-   margin: 0px auto;
-   
-   max-width: 800px;
+   margin: 0px auto;  
+   max-width: 900px;
    
    
 
 }
 
-a {
+nav ul li a {
    color: white;
    text-decoration: none;
    font-size: 1em;
+<<<<<<< Updated upstream
+=======
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box; 
+   font-family: cursive;
+>>>>>>> Stashed changes
  
 }
 ul li {
@@ -46,7 +52,6 @@ a:hover {
 header {
    width: 100%;
 }
-
 
 
 
