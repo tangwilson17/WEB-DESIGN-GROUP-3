@@ -44,7 +44,7 @@ header {
 }
 
 nav ul {
-  background: linear-gradient(to bottom, rgb(238, 97, 97), rgb(219, 190, 190));
+  background: linear-gradient(to bottom, black, burlywood);
 
   -moz-column-width: 200px;
   -webkit-column-width: 200px;
