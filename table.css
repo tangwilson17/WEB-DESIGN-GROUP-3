@@ -1,7 +1,7 @@
 table.work_hour_table {
   border: 6px solid #948473;
   background-color: #ffe3c6;
-  width: 100%;
+  width: 102.3%;
   text-align: center;
 }
 
@@ -17,12 +17,14 @@ table.work_hour_table thead {
   background: #b2af96;
 }
 table.work_hour_table thead th {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
   color: #f0f0f0;
-  text-align: left;
+  text-align: center;
+  
   border-left: 2px solid #948c78;
 }
+
 
 /* table.work_hour_table thead th:first-child {
     border-left: none;
