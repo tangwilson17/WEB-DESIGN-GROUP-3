@@ -3,50 +3,21 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="table.css">
     <title>Table Page</title>
 
-    <style>
-      
-    
-       table {
-         font-family: arial, sans-serif;
-         border-collapse: collapse;
-         width: 100%;
-       }
-       
-       td, th {
-         border: 1px solid #dddddd;
-         text-align: left;
-         padding: 8px;
-       }
-       
-       tr:nth-child(odd) {
-         background-color: #fcebeb;
-       }
-       </style>
-    
-   
-    
-
-
+  
 
   </head>
-
   <body>
-
-  
-  
- 
-
-    <h1 style="text-align: center;">Make table here</h1>
-
+    
+    <h1 style="text-align: center;">Work Hour of Northern Lagoon Hotel</h1>
     <header>
       <nav>
       <ul>
         <li><a href="home.html">Home Page</a></li>
         <li><a href="table.html">Table Page</a></li>
         <table></table>
-        
      </ul>
       </nav>
     </header>
@@ -58,54 +29,59 @@
 
       </head>
       
-      <h2>HTML Table</h2>
+     
       
-      <table>
-        
+      <p>&nbsp;</p>
 
-        <tr>
-          <th>Day of the Week</th>
-          <th>Contact</th>
-          <th>Country</th>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Monday</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
-        </tr>
+<table class="work_hour_table">
+<thead>
+<tr>
+<th>Day of the week</th>
+<th>7:30 ~ 10:00 am</th>
+<th>10:00 ~ 11:00 am</th>
+<th>11:00am ~ 7:00pm</th>
+<th>7:00pm ~ 8:00pm &nbsp;</th>
+</tr>
+</thead>
 
-        <tr>
-          <td>Saturday</td>
-          <td>random text</td>
-          <td>random text</td>
-        </tr>
-      </table>
-    </div>
+
+
+<tbody>
+<tr>
+<td>Sunday</td>
+<td rowspan="7"> Open Hour</td>
+<td rowspan="7">Rest Hour</td>
+<td rowspan="7">Open Hour</td>
+<td rowspan="7">Rest Hour</td>
+</tr>
+
+<tr>
+<td>Monday</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+</tr>
+
+<tr>
+<td>Saturday</td>
+</tr>
+
+
+</tbody>
+</table>
     
   </body>
 </html>
