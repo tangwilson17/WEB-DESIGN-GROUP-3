@@ -1,7 +1,7 @@
 table.work_hour_table {
   border: 6px solid #948473;
   background-color: #ffe3c6;
-  width: 102.3%;
+  width: 100%;
   text-align: center;
 }
 
@@ -17,26 +17,14 @@ table.work_hour_table thead {
   background: #b2af96;
 }
 table.work_hour_table thead th {
-<<<<<<< Updated upstream
   font-size: 14px;
-=======
-  font-size: 13px;
->>>>>>> Stashed changes
+
   font-weight: bold;
   color: #f0f0f0;
   text-align: center;
-  
+
   border-left: 2px solid #948c78;
 }
-
-<<<<<<< Updated upstream
-
-/* table.work_hour_table thead th:first-child {
-    border-left: none;
-  } */
-
-=======
 table.work_hour_table thead th:first-child {
   border-left: none;
 }
->>>>>>> Stashed changes
