@@ -5,6 +5,7 @@ table.work_hour_table {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 table.work_hour_table td,
