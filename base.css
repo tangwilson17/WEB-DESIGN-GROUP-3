@@ -18,7 +18,7 @@ body {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   margin: 0px auto;
-  max-width: 75%;
+  max-width: 1200px;
 }
 
 nav ul li a {
