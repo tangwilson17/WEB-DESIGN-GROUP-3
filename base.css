@@ -44,7 +44,7 @@ header {
 }
 
 nav ul {
-  background: linear-gradient(to bottom, rgb(238, 97, 97), rgb(219, 190, 190));
+  background: linear-gradient(to bottom, rgb(216, 210, 192), rgb(160, 112, 57));
 
   -moz-column-width: 200px;
   -webkit-column-width: 200px;
@@ -52,9 +52,9 @@ nav ul {
 
   -moz-column-gap: 25px;
   -webkit-column-gap: 25px;
-  /* column-gap: 25px;
+  column-gap: 25px;
 
-  padding: 25px; */
+  padding: 25px;
   max-height:100% ;
 }
 
