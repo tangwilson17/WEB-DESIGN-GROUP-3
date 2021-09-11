@@ -6,20 +6,22 @@
 
     <title>Home Page</title>
   </head>
+  <script type="text/javascript">
+    function terms_validation() {
+      var btn_text;
+
+      if (confirm("You may proceed to next page")) {
+        // display next page button
+        btn_text = "You may proceed to next page";
+      } else {
+        btn_text = "Please agree to terms and condition to proceed";
+      }
+      document.getElementById("btn_response").innerHTML = btn_text;
+    }
+  </script>
 
   <body>
     <img src="pictures/Nothern Lagoon HOTEL.png" style="max-width: 100%" />
-
-    <header>
-      <nav>
-        <ul>
-          <li><a href="home.html">Home Page</a></li>
-          <li><a href="table.html">Table Page</a></li>
-          <li><a href="event.html">Event Page</a></li>
-          <li><a href="#">Not sure yet</a></li>
-        </ul>
-      </nav>
-    </header>
 
     <div class="content">
       <h1>Deluxe Room</h1>
@@ -73,6 +75,30 @@
         family activities with amazing view to the Pirin Mountain and forest.
         Occupancy: 2 adults & 2 children – all in private bedrooms .
       </p>
+
+      <div style="margin-bottom: 2%">
+        <h3>Terms & Conditions</h3>
+        <p>
+          GENERAL TERMS Your contract is with Micado Sdn. Bhd. Usage of this
+          website is on condition that you accept without variation. The terms
+          and conditions set out here in which Hotel Malaysia may vary from time
+          to time at its sole discretion with/without notice to you and you
+          acknowledge that the usage of this website constitutes your agreement
+          to all the terms and conditions in force for the time being as set out
+          herein. In the Terms & Conditions: "we" or "us" or "Hotel" means Hotel
+          Malaysia (including, where appropriate, our employees, agents, and
+          suppliers and all relevant insurers); "you" or "guests" means any and
+          all person(s) for whom a hotel room is booked. The following terms and
+          conditions create a legally binding agreement between you and Hotel
+          Malaysia.
+        </p>
+        <span
+          ><input type="checkbox" required id="terms_agree" />I agree to the
+          Terms and Conditions, Return Policy & Privacy Policy</span
+        >
+        <button type="button" onclick="terms_validation()">Proceed</button>
+        <p id="btn_response"></p>
+      </div>
     </div>
   </body>
 </html>
