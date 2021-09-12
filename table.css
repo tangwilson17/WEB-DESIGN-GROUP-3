@@ -5,7 +5,7 @@ body {
 body {
   
   background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
-  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #ccc5b4, #684a1d);
   font-family: sans-serif;
   font-weight: 100;
 }
@@ -21,21 +21,22 @@ table {
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: cursive;
 }
 th,
 td {
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  background-color: rgba(182, 118, 21, 0.2);
+  color: rgb(245, 239, 239);
 }
 th {
   text-align: left;
 }
 thead th {
-  background-color: #55608f;
+  background-color: #685429;
 }
 tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(185, 130, 58, 0.3);
 }
 tbody td {
   position: relative;
