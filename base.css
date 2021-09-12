@@ -55,12 +55,11 @@ nav ul {
   -webkit-column-gap: 25px;
   column-gap: 25px;
 
-  padding: 25px; 
+  padding: 25px;
   max-height:100% ;
 }
 
 /* Footer styles */
-
 footer {
   color: white;
   background: rgb(44, 70, 44);
