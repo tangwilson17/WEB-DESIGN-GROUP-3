@@ -1,35 +1,52 @@
-table.work_hour_table {
-  border: 8px solid #948473;
-  background-color: #ffe3c6;
-  text-align: center;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
+html,
+body {
+  height: 100%;
+}
+body {
+  
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.container {
+  position:static;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+table {
   width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
-table.work_hour_table td,
-table.work_hour_table th {
-  border: 1px solid #948473;
-  padding: 4px 4px;
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
-table.work_hour_table tbody td {
-  font-size: 15px;
-  font-family: cursive;
-  font-weight: bold;
+th {
+  text-align: left;
 }
-table.work_hour_table thead {
-  background: #b2af96;
+thead th {
+  background-color: #55608f;
 }
-table.work_hour_table thead th {
-  font-size: 20px;
-
-  font-weight: bold;
-  color: white;
-  text-align: center;
-
-  border-left: 2px solid #948c78;
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
-table.work_hour_table thead th:first-child {
-  border-left: none;
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
 }
