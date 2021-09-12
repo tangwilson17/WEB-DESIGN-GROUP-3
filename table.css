@@ -3,9 +3,8 @@ body {
   height: 100%;
 }
 body {
-  
-  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
-  background: linear-gradient(45deg, #ccc5b4, #684a1d);
+  /* background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82); */
   font-family: sans-serif;
   font-weight: 100;
 }
@@ -17,6 +16,8 @@ body {
           transform: translate(-50%, -50%);
 }
 table {
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
   width: 100%;
   border-collapse: collapse;
   overflow: hidden;
@@ -42,7 +43,7 @@ tbody td {
   position: relative;
 }
 tbody td:hover:before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   left: 0;
   right: 0;
