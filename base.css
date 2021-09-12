@@ -55,20 +55,8 @@ nav ul {
   -webkit-column-gap: 25px;
   column-gap: 25px;
 
-  padding: 25px; 
-  max-height:100% ;
-}
-
-/* Footer styles */
-
-footer {
-  color: white;
-  background: rgb(44, 70, 44);
-  height: 70px;
-  padding-top: 20px;
-  text-align: center;
-  font-size: 0.9em;
-  width: 100%;
+  padding: 25px;
+  max-height: 100%;
 }
 
 p {
@@ -80,7 +68,6 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   display: block;
-  
 }
 
 .img:hover {
@@ -88,10 +75,9 @@ p {
   transition: 2s;
 }
 
-header a{
+header a {
   margin-left: 5%;
 }
-
 
 /* ===============================
    Mobile Styles: 0px to 640px 
@@ -116,8 +102,6 @@ header a{
     order: 100;
   }
 }
-
-
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
