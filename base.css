@@ -87,9 +87,12 @@ header a {
 }
 
 .title_header {
-  background: khaki;
+  margin-top: 0;
+  background:url(pictures/beautiful-front-hotel.jpg);
   max-width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: scale-down;
+  
 
 }
 
