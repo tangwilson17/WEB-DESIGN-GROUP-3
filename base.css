@@ -27,10 +27,7 @@ nav ul li a {
   font-size: 1em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-<<<<<<< Updated upstream
   box-sizing: border-box;
-=======
->>>>>>> Stashed changes
   font-family: cursive;
 }
 
@@ -41,9 +38,6 @@ ul li {
 a:hover {
   color: rgb(192, 231, 169);
   text-decoration: none;
-<<<<<<< Updated upstream
-}
-=======
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -98,7 +92,6 @@ a:hover {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
->>>>>>> Stashed changes
 
 header {
   width: 100%;
@@ -151,15 +144,12 @@ header a{
   margin-left: 5%;
 }
 
-<<<<<<< Updated upstream
-=======
 /* .title_header {
   margin-top: 0;
   background: url(pictures/beautiful-front-hotel.jpg);
   max-width: 100%;
   height: 40ch;
 } */
->>>>>>> Stashed changes
 
 /* ===============================
    Mobile Styles: 0px to 640px 
