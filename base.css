@@ -37,7 +37,7 @@ ul li {
 }
 
 a:hover {
-  color: rgb(192, 231, 169);
+  color: rgb(94, 84, 80);
   text-decoration: none;
   transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -52,16 +52,15 @@ a:hover {
   height: 65vh;
   background-blend-mode: darken;
 
-
   animation: pic 15s infinite;
 }
 @keyframes pic {
-  from { background-position-y: 0px; }
-  to { background-position-y: -200px; }
-}
-
-.title_header {
-  width: 100%;
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: -200px;
+  }
 }
 
 .title_header h1 {
@@ -75,13 +74,35 @@ a:hover {
   text-align: center;
 }
 
+/* .heading_text_border {
+  height: auto;
+  text-align: left;
+} */
+
+
+.heading_text-left {
+  font-size: 20px;
+  width: 49%;
+  float: left;
+
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.heading_text-right {
+  font-size: 20px;
+  width: 49%;
+  float: right;
+  
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 header {
   width: 100%;
 }
 
 nav ul {
   margin-top: 0;
-  margin-bottom: 0;  
+  margin-bottom: 0;
   background: linear-gradient(to bottom, rgb(216, 210, 198), rgb(119, 92, 60));
   -moz-column-width: 200px;
   -webkit-column-width: 200px;
@@ -112,8 +133,6 @@ p {
 header a {
   margin-left: 5%;
 }
-
-
 
 /* ===============================
    Mobile Styles: 0px to 640px 
