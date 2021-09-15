@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(235, 223, 223);
   box-shadow: black, black -20px 0px 40px;
   display: -webkit-flex;
   display: flex;
@@ -25,9 +25,10 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 1em;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+
   font-family: cursive;
 }
 
@@ -36,39 +37,92 @@ ul li {
 }
 
 a:hover {
-  color: rgb(192, 231, 169);
+  color: rgb(94, 84, 80);
   text-decoration: none;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
 }
 
+.title_header {
+  background: transparent url(pictures/beautiful-front.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  background-color: rgb(180, 178, 178);
+  background-blend-mode: darken;
+  max-width: 100%;
+  height: 50%;
+  
+  box-shadow: 0 0 50px 5px #000;
+  animation: pic 15s infinite;
+}
+@keyframes pic {
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: -200px;
+  }
+}
+
+.title_header h1 {
+  color: rgb(214, 203, 138);
+  opacity: 0.8;
+  font-family: Copperplate Gothic Light;
+  
+  font-size: 100px;
+  font-weight: bold;
+  padding: 15% 0;
+  text-align: center;
+  
+}
+
+
+
+.heading_text-left {
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  
+
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+.heading_text-right {
+  font-size: 20px;
+  width: 40%;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 0px;
+
+  float: right;
+  
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 header {
   width: 100%;
 }
 
 nav ul {
   margin-top: 0;
+  margin-bottom: 0;
   background: linear-gradient(to bottom, rgb(216, 210, 198), rgb(119, 92, 60));
   -moz-column-width: 200px;
   -webkit-column-width: 200px;
   column-width: 130px;
-
   -moz-column-gap: 25px;
   -webkit-column-gap: 25px;
   column-gap: 25px;
-
-  padding: 25px; 
-  max-height:100% ;
-}
-
-/* Footer styles */
-
-footer {
-  color: white;
-  background: rgb(44, 70, 44);
-  height: 70px;
-  padding-top: 20px;
-  text-align: center;
-  font-size: 0.9em;
-  width: 100%;
+  padding: 25px;
+  max-height: 100%;
 }
 
 p {
@@ -80,7 +134,6 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   display: block;
-  
 }
 
 .img:hover {
@@ -88,11 +141,20 @@ p {
   transition: 2s;
 }
 
-header a{
+header a {
   margin-left: 5%;
 }
 
+<<<<<<< Updated upstream
+=======
+.title_header {
+  margin-top: 0;
+  background: url(pictures/beautiful-front-hotel.jpg);
+  max-width: 100%;
+  height: 40ch;
+}
 
+>>>>>>> Stashed changes
 /* ===============================
    Mobile Styles: 0px to 640px 
    ===============================
@@ -116,8 +178,6 @@ header a{
     order: 100;
   }
 }
-
-
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
