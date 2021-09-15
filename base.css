@@ -27,7 +27,10 @@ nav ul li a {
   font-size: 1em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+<<<<<<< Updated upstream
   box-sizing: border-box;
+=======
+>>>>>>> Stashed changes
   font-family: cursive;
 }
 
@@ -38,7 +41,64 @@ ul li {
 a:hover {
   color: rgb(192, 231, 169);
   text-decoration: none;
+<<<<<<< Updated upstream
 }
+=======
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+
+.title_header {
+  background: transparent url(pictures/beautiful-front.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50%;
+  box-shadow: 0 0 50px 5px #000;
+  animation: pic 15s infinite;
+}
+@keyframes pic {
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: -200px;
+  }
+}
+
+.title_header h1 {
+  color: rgb(214, 203, 138);
+  opacity: 0.8;
+  font-family: Copperplate Gothic Light;
+  font-size: 100px;
+  font-weight: bold;
+  padding: 15% 0;
+  text-align: center;
+}
+
+.heading_text-left {
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+.heading_text-right {
+  font-size: 20px;
+  width: 40%;
+  float: right;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+>>>>>>> Stashed changes
 
 header {
   width: 100%;
@@ -91,6 +151,15 @@ header a{
   margin-left: 5%;
 }
 
+<<<<<<< Updated upstream
+=======
+/* .title_header {
+  margin-top: 0;
+  background: url(pictures/beautiful-front-hotel.jpg);
+  max-width: 100%;
+  height: 40ch;
+} */
+>>>>>>> Stashed changes
 
 /* ===============================
    Mobile Styles: 0px to 640px 
