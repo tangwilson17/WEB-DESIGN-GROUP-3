@@ -141,20 +141,12 @@ p {
   transition: 2s;
 }
 
+
+
 header a {
   margin-left: 5%;
 }
 
-<<<<<<< Updated upstream
-=======
-.title_header {
-  margin-top: 0;
-  background: url(pictures/beautiful-front-hotel.jpg);
-  max-width: 100%;
-  height: 40ch;
-}
-
->>>>>>> Stashed changes
 /* ===============================
    Mobile Styles: 0px to 640px 
    ===============================
