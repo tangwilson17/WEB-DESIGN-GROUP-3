@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(235, 223, 223);
   box-shadow: black, black -20px 0px 40px;
   display: -webkit-flex;
   display: flex;
@@ -45,13 +45,14 @@ a:hover {
 }
 
 .title_header {
-  background: rgb(179, 174, 174) url(pictures/beautiful-front.jpg);
+  background: transparent url(pictures/beautiful-front.jpg);
   background-repeat: no-repeat;
   /* background-size: 100%; */
+  /* background-blend-mode: darken; */
   max-width: 100%;
-  height: 65vh;
-  background-blend-mode: darken;
-
+  height: 50%;
+  
+  box-shadow: 0 0 50px 5px #000;
   animation: pic 15s infinite;
 }
 @keyframes pic {
@@ -67,30 +68,39 @@ a:hover {
   color: rgb(214, 203, 138);
   opacity: 0.8;
   font-family: Copperplate Gothic Light;
-  transition: ;
+  
   font-size: 100px;
   font-weight: bold;
   padding: 15% 0;
   text-align: center;
+  
 }
 
-/* .heading_text_border {
-  height: auto;
-  text-align: left;
-} */
 
 
 .heading_text-left {
   font-size: 20px;
-  width: 49%;
+  width: 40%;
   float: left;
+  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  
 
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  
 }
 .heading_text-right {
   font-size: 20px;
-  width: 49%;
+  width: 40%;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 0px;
+
   float: right;
   
   border-bottom-right-radius: 20px;
