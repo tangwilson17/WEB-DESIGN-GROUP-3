@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* HTML and Body styles */
+
 
 html {
   background: rgb(51, 51, 51) url(pictures/abstract-blur-hotel-interior.jpg);
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(235, 223, 223);
   box-shadow: black, black -20px 0px 40px;
   display: -webkit-flex;
   display: flex;
@@ -19,6 +19,11 @@ body {
   flex-flow: row wrap;
   margin: 0px auto;
   max-width: 1200px;
+  background-image: url(pictures/white-wood.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
 }
 
 nav ul li a {
@@ -28,6 +33,7 @@ nav ul li a {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+ 
 
   font-family: cursive;
 }
@@ -45,13 +51,15 @@ a:hover {
 }
 
 .title_header {
-  background: rgb(179, 174, 174) url(pictures/beautiful-front.jpg);
+  background: transparent url(pictures/beautiful-front.jpg);
   background-repeat: no-repeat;
   /* background-size: 100%; */
-  max-width: 100%;
-  height: 65vh;
+  background-color: rgb(180, 178, 178);
   background-blend-mode: darken;
-
+  max-width: 100%;
+  height: 50%;
+  
+  box-shadow: 0 0 50px 5px #000;
   animation: pic 15s infinite;
 }
 @keyframes pic {
@@ -67,37 +75,63 @@ a:hover {
   color: rgb(214, 203, 138);
   opacity: 0.8;
   font-family: Copperplate Gothic Light;
-  transition: ;
+  
   font-size: 100px;
   font-weight: bold;
   padding: 15% 0;
   text-align: center;
+  
 }
 
-/* .heading_text_border {
-  height: auto;
-  text-align: left;
-} */
-
+.video-border {
+ 
+  background-image: url(pictures/clean-blue-background-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 .heading_text-left {
   font-size: 20px;
-  width: 49%;
+  width: 40%;
   float: left;
-
+  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  
+background-color: rgba(253, 250, 250, 0.555);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-left-radius :20px;
+  border-top-right-radius: 20px;  
 }
 .heading_text-right {
   font-size: 20px;
-  width: 49%;
+  width: 40%;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 0px;
+
   float: right;
+  
+  background-color: rgba(253, 250, 250, 0.555);
   
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-left-radius :20px;
+  border-top-right-radius: 20px;  
+}
+}
+
+.col ul a li {
+  line-height: 1.2em;;
 }
 header {
   width: 100%;
+
 }
 
 nav ul {
@@ -129,6 +163,9 @@ p {
   transform: scale(1.1);
   transition: 2s;
 }
+
+
+
 
 header a {
   margin-left: 5%;
