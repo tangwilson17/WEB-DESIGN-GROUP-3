@@ -33,6 +33,7 @@ nav ul li a {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+ 
 
   font-family: cursive;
 }
@@ -111,6 +112,10 @@ a:hover {
   
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.col ul a li {
+  line-height: 1.2em;;
 }
 header {
   width: 100%;
