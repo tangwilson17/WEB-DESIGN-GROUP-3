@@ -17,18 +17,29 @@
     margin: 0;
     padding: 0;
     font-family: inherit;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 16px;
     padding: 20px 0px 5px 0px;
     color: rgba(255,255,255,0.2);
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.250em;
   }
   .footer .col ul {
     list-style-type: none;
+    font-family: cursive;
+    color:rgb(179, 171, 171);
     margin: 0;
     padding: 0;
+    
+  }
+
+  .footer .col ul:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+
   }
   .footer .col ul li {
     color: #999999;
@@ -51,6 +62,13 @@
     font-weight: bold;
     line-height: 2em;
     
+  }
+
+  .col ul a:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
   }
 
   .footer .col ul li:hover {
