@@ -175,7 +175,7 @@ p {
   margin: auto;
   
   box-shadow: 0 0 25px 5px #000;
-  animation: pic 15s infinite;
+  animation: pic 10s infinite;
 }
 
 /* .heading_text_pic {
