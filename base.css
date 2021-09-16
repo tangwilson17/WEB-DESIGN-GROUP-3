@@ -19,6 +19,11 @@ body {
   flex-flow: row wrap;
   margin: 0px auto;
   max-width: 1200px;
+  background-image: url(pictures/white-painted-wooden-desk-background-tabletop-rustic-light-blank-clear-plank-wood-texture-timber-board-surface-minimal-empty-clean-simple-table-with-copy-free-space-text-top-view_203461.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
 }
 
 nav ul li a {
@@ -28,6 +33,7 @@ nav ul li a {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+ 
 
   font-family: cursive;
 }
@@ -107,6 +113,10 @@ a:hover {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+
+.col ul a li {
+  line-height: 1.2em;;
+}
 header {
   width: 100%;
 }
@@ -141,20 +151,15 @@ p {
   transition: 2s;
 }
 
+/* .heading_text_pic {
+  background-image: url(pictures/white-painted-wooden-desk-background-tabletop-rustic-light-blank-clear-plank-wood-texture-timber-board-surface-minimal-empty-clean-simple-table-with-copy-free-space-text-top-view_203461.jpg);
+} */
+
+
 header a {
   margin-left: 5%;
 }
 
-<<<<<<< Updated upstream
-=======
-.title_header {
-  margin-top: 0;
-  background: url(pictures/beautiful-front-hotel.jpg);
-  max-width: 100%;
-  height: 40ch;
-}
-
->>>>>>> Stashed changes
 /* ===============================
    Mobile Styles: 0px to 640px 
    ===============================
