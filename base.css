@@ -167,12 +167,14 @@ p {
 .service {
   background-image: url(pictures/servicecounter.png);
   background-repeat: no-repeat;
+
   background-color: rgb(180, 178, 178);
   /* background-blend-mode: darken; */
-  max-width: 100%;
+  max-width: 60%;
   height: 50%;
+  margin: auto;
   
-  box-shadow: 0 0 50px 5px #000;
+  box-shadow: 0 0 25px 5px #000;
   animation: pic 15s infinite;
 }
 
