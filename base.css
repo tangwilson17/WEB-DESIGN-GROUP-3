@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* HTML and Body styles */
+
 
 html {
   background: rgb(51, 51, 51) url(pictures/abstract-blur-hotel-interior.jpg);
@@ -19,7 +19,7 @@ body {
   flex-flow: row wrap;
   margin: 0px auto;
   max-width: 1200px;
-  background-image: url(pictures/white-painted-wooden-desk-background-tabletop-rustic-light-blank-clear-plank-wood-texture-timber-board-surface-minimal-empty-clean-simple-table-with-copy-free-space-text-top-view_203461.jpg);
+  background-image: url(pictures/white-wood.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -83,7 +83,13 @@ a:hover {
   
 }
 
-
+.video-border {
+ 
+  background-image: url(pictures/clean-blue-background-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
 .heading_text-left {
   font-size: 20px;
@@ -94,10 +100,11 @@ a:hover {
   margin-bottom: 1em;
   margin-left: 30px;
   
-
+background-color: rgba(253, 250, 250, 0.555);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  
+  border-top-left-radius :20px;
+  border-top-right-radius: 20px;  
 }
 .heading_text-right {
   font-size: 20px;
@@ -110,8 +117,13 @@ a:hover {
 
   float: right;
   
+  background-color: rgba(253, 250, 250, 0.555);
+  
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-left-radius :20px;
+  border-top-right-radius: 20px;  
+}
 }
 
 .col ul a li {
@@ -119,6 +131,7 @@ a:hover {
 }
 header {
   width: 100%;
+
 }
 
 nav ul {
@@ -151,9 +164,7 @@ p {
   transition: 2s;
 }
 
-/* .heading_text_pic {
-  background-image: url(pictures/white-painted-wooden-desk-background-tabletop-rustic-light-blank-clear-plank-wood-texture-timber-board-surface-minimal-empty-clean-simple-table-with-copy-free-space-text-top-view_203461.jpg);
-} */
+
 
 
 header a {
