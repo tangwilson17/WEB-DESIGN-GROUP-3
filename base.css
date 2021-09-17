@@ -32,6 +32,7 @@ nav ul li a {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+
   font-family: cursive;
 }
 
@@ -62,52 +63,12 @@ a:hover {
   box-shadow: 0 0 50px 5px #000;
   animation: pic 15s infinite;
 }
-
-.footer .col ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer .col ul li {
-  color: #999999;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 5px 0px 5px 0px;
-  cursor: pointer;
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
-}
-
-.social ul li {
-  display: inline-block;
-  padding-right: 5px !important;
-}
-
-.footer .col ul li:hover {
-  color: #ffffff;
-  transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
-}
-
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
+@keyframes pic {
+  from {
+    background-position-y: 0px;
   }
-}
-
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-
-  .social h1 {
-    margin: 0px;
+  to {
+    background-position-y: -200px;
   }
 }
 
@@ -180,41 +141,8 @@ a:hover {
 .col ul a li {
   line-height: 1.2em;
 }
-
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
-  }
-}
-
 header {
   width: 100%;
-}
-
-header a {
-  margin-left: 5%;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  font-family: cursive;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-a:hover {
-  color: rgb(94, 84, 80);
-  text-decoration: none;
-  transition: 0.2s;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
 }
 
 nav ul {
@@ -231,12 +159,8 @@ nav ul {
   max-height: 100%;
 }
 
-/* FOOTER */
-.footer {
-  width: 100%;
-  position: relative;
-  height: auto;
-  background-color: #50402c;
+p {
+  font-family: cursive;
 }
 
 /* .content {
@@ -309,97 +233,40 @@ nav ul {
   width: 500px;
 }
 
-.footer .col h1 {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: 12px;
-  line-height: 17px;
-  padding: 20px 0px 5px 0px;
-  color: rgba(255, 255, 255, 0.2);
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.250em;
+.img:hover {
+  transform: scale(1.1);
+  transition: 2s;
 }
 
-.footer .col ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+header a {
+  margin-left: 5%;
 }
 
-.footer .col ul li {
-  color: #999999;
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 5px 0px 5px 0px;
-  cursor: pointer;
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
-}
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+@media only screen and (max-width: 640px) {
+  section h1 {
+    font-size: 1.5em;
+  }
 
-.social ul li {
-  display: inline-block;
-  padding-right: 5px !important;
-}
+  section p {
+    font-size: 0.9em;
+  }
 
-.footer .col ul li:hover {
-  color: #ffffff;
-  transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
-}
+  nav {
+    -webkit-order: 99;
+    order: 99;
+  }
 
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
+  footer {
+    -webkit-order: 100;
+    order: 100;
   }
 }
 
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-
-  .social h1 {
-    margin: 0px;
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  .footer .col {
-    width: 33%;
-  }
-
-  .footer .col h1 {
-    font-size: 14px;
-  }
-
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .footer .col {
-    width: 50%;
-  }
-
-  .footer .col h1 {
-    font-size: 14px;
-  }
-
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
-  }
-}
+/* =============================================
+   Tablet and Desktop Styles: greater than 640px
+   =============================================
+*/
