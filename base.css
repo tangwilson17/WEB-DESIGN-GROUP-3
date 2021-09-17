@@ -38,6 +38,9 @@ nav ul li a {
 
 ul li {
   list-style-type: none;
+  line-height: 1.3em;
+  margin-bottom: auto;
+  
 }
 
 a:hover {
@@ -196,7 +199,7 @@ p {
 
 
 
-/* .content-2 {
+.content-2 {
   background-image: url(pictures/luxury-room-blurred.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -222,11 +225,12 @@ p {
   border-top-right-radius: 20px;
   margin-bottom: 5%;
   margin-top: 10%;
-} */
+}
 
 .content img {
   margin-left: 7%;
   margin-top: 5%;
+  width: 500px;
 }
 
 .img:hover {
