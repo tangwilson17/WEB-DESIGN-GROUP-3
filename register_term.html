@@ -61,9 +61,9 @@
                 conditions create a legally binding agreement between you and Hotel
                 Malaysia.
             </p>
-            <span ><input type="checkbox" required id="terms_agree" />I agree to the
-                Terms and Conditions, Return Policy & Privacy Policy.</span>
-              <button type="button" onclick="terms_validation()">Proceed</button>
+            <span ><input type="checkbox" required id="terms_agree" onclick="make_visible()"/>
+              I agree to the Terms and Conditions, Return Policy & Privacy Policy.</span>
+              <button type="button" id="redirect">Proceed</button>
               <p id="btn_response"></p>
             
         </div>
@@ -124,15 +124,7 @@
 </html>
 
 <script type="text/javascript">
-  function terms_validation() {
-    var btn_text;
-
-    if (confirm("You may proceed to next page")) {
-      // display next page button
-      btn_text = "You may proceed to next page";
-    } else {
-      btn_text = "Please agree to terms and condition to proceed";
-    }
-    document.getElementById("btn_response").innerHTML = btn_text;
-  }
+document.getElementById("redirect").onclick = function(){
+  location.href="register.html"
+};
 </script>
