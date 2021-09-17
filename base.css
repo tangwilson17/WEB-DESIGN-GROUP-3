@@ -121,6 +121,20 @@ a:hover {
   border-top-right-radius: 20px;
 }
 
+.service {
+  background-image: url(pictures/servicecounter.png);
+  background-repeat: no-repeat;
+
+  background-color: rgb(180, 178, 178);
+  /* background-blend-mode: darken; */
+  max-width: 60%;
+  height: 50%;
+  margin: auto;
+  
+  box-shadow: 0 0 25px 5px #000;
+  animation: pic 10s infinite;
+}
+
 .col ul a li {
   line-height: 1.2em;
 }
@@ -146,12 +160,12 @@ p {
   font-family: cursive;
 }
 
-.content {
+/* .content {
   position: relative;
   margin-left: 5%;
   margin-right: 5%;
   display: block;
-}
+} */
 
 .content h1 {
   text-align: center;
@@ -180,11 +194,9 @@ p {
   margin-top: 10%;
 }
 
-.content-1 p {
-  width: ;
-}
 
-.content-2 {
+
+/* .content-2 {
   background-image: url(pictures/luxury-room-blurred.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -210,7 +222,7 @@ p {
   border-top-right-radius: 20px;
   margin-bottom: 5%;
   margin-top: 10%;
-}
+} */
 
 .content img {
   margin-left: 7%;
