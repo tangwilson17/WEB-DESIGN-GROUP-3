@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="footer.css">
 
 
-
     <!-- <style>
         h1 {
             background-color: brown;
@@ -21,7 +20,6 @@
 <body>
     <img src="pictures/Nothern Lagoon HOTEL.png" style="max-width: 100%">
 
-
     <header>
         <nav>
           <ul>
@@ -31,88 +29,69 @@
             
           </ul>
         </nav>
-      </header>
+      </header> 
 
-    <table id="table1">
+      <h1>Register Your Account</h1>
+      <table id="table1">
         <tr>
-            <th style="font-size: 30px;">Register Your Account</th>
-        <td></td>
-        <td></td>
+          <td>First Name:</td>
+          <td><input type="text" id="first" onkeyup="validate();" /></td>
+          <td><div id="errFirst"></div></td>
         </tr>
         <tr>
-            <td>First Name:</td>
-            <td><input type="text" id="first" onkeyup="validate();" /></td>
-            <td>
-                <div id="errFirst"></div>
-            </td>
+          <td>Last Name:</td>
+          <td><input type="text" id="last" onkeyup="validate();"/></td>
+          <td><div id="errLast"></div></td>
         </tr>
         <tr>
-            <td>Last Name:</td>
-            <td><input type="text" id="last" onkeyup="validate();" /></td>
-            <td>
-                <div id="errLast"></div>
-            </td>
+          <td>Email:</td>
+          <td><input type="text" id="email" onkeyup="validate();"/></td>
+          <td><div id="errEmail"></div></td>
         </tr>
         <tr>
-            <td>Email:</td>
-            <td><input type="text" id="email" onkeyup="validate();" /></td>
-            <td>
-                <div id="errEmail"></div>
-            </td>
+          <td>User Id:</td>
+          <td><input type="text" id="uid" onkeyup="validate();"/></td>
+          <td><div id="errUid"></div></td>
         </tr>
         <tr>
-            <td>User ID:</td>
-            <td><input type="text" id="uid" onkeyup="validate();" /></td>
-            <td>
-                <div id="errUid"></div>
-            </td>
+          <td>Password:</td>
+          <td><input type="password" id="password" onkeyup="validate();"/></td>
+          <td><div id="errPassword"></div></td>
         </tr>
         <tr>
-            <td>Password:</td>
-            <td><input type="password" id="password" onkeyup="validate();" /></td>
-            <td>
-                <div id="errPassword"></div>
-            </td>
+          <td>Confirm Password:</td>
+          <td><input type="password" id="confirm" onkeyup="validate();"/></td>
+          <td><div id="errConfirm"></div></td>
         </tr>
         <tr>
-            <td>Confirm Password:</td>
-            <td><input type="password" id="confirm" onkeyup="validate();" /></td>
-            <td>
-                <div id="errConfirm"></div>
-            </td>
-        </tr>
-        <tr>
-            <td><input type="button" id="create" value="Create" onclick="validate();finalValidate();" /></td>
-            <td>
-                <div id="errFinal"></div>
-            </td>
-            <td>
-                
-            </td>
+          <td><input type="button" id="create" value="Create" onclick="validate();finalValidate();"/></td>
+          <td><div id="errFinal"></div></td>
+          <td></td>
         </tr>
     </table>
-
+    
+    </div>
     <div class="footer">
         <div class="contain">
-          <div class="col" style="width: 30%;  ">
-            <h1>MORE ABOUT US</h1>
-            <ul>
-              <a href="contact.html">
-                <li>Contact us</li>
-              </a>
-              <a href="#">
-                <li>Event </li>
-              </a>
-              <a href="#">
-                <li>random</li>
-              </a>
-            </ul>
-          </div>
+            <div class="col" style="width: 30%;  ">
+                <h3>MORE ABOUT US</h3>
+                <ul>
+                    <a href="contact.html">
+                        <li>Contact us</li>
+                    </a>
+                    <a href="#">
+                        <li>Event </li>
+                    </a>
+                    <a href="#">
+                        <li>random</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     
     
         <div class="col" style="float: left; width: 35%; margin-right: 5%; margin-left: 5%;">
-          <h1>ABOUT US</h1>
+          <h3>ABOUT US</h3>
           <ul>
             Nothern Lagoon Hotel
             ABC Ancasa Sdn Bhd (453361-T) is the operator of:
@@ -127,7 +106,7 @@
     
         </div>
         <div class="col" style=" width: 25%; float:left;">
-          <h1>SOCIAL</h1>
+          <h3>SOCIAL</h3>
           <ul>
             <a href="https://wa.me/0123456789" target="_blank">☎ 012 345 6789</a>
           </ul>
@@ -194,7 +173,7 @@
         var count = 0;
         for (i = 0; i < 6; i++) {
             var div = divs[i];
-            if (document.getElementById(div).innerHTML == "Passed!")
+            if (document.getElementById(div).innerHTML == "OK!")
                 count = count + 1;
         }
         if (count == 6)
