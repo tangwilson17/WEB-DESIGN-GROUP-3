@@ -44,21 +44,21 @@
             <td>First Name:</td>
             <td><input type="text" id="first" onkeyup="validate();" /></td>
             <td>
-                <div id="errFirst"></div>
+                <div id="FirstName"></div>
             </td>
         </tr>
         <tr>
             <td>Last Name:</td>
             <td><input type="text" id="last" onkeyup="validate();" /></td>
             <td>
-                <div id="errLast"></div>
+                <div id="LastName"></div>
             </td>
         </tr>
         <tr>
             <td>Email:</td>
             <td><input type="text" id="email" onkeyup="validate();" /></td>
             <td>
-                <div id="errEmail"></div>
+                <div id="usrEmail"></div>
             </td>
         </tr>
         <tr>
@@ -67,21 +67,21 @@
 
             <td><input type="text" id="uid" onkeyup="validate();" /></td>
             <td>
-                <div id="errUid"></div>
+                <div id="usrID"></div>
             </td>
         </tr>
         <tr>
             <td>Password:</td>
             <td><input type="password" id="password" onkeyup="validate();" /></td>
             <td>
-                <div id="errPassword"></div>
+                <div id="usrPassword"></div>
             </td>
         </tr>
         <tr>
             <td>Confirm Password:</td>
             <td><input type="password" id="confirm" onkeyup="validate();" /></td>
             <td>
-                <div id="errConfirm"></div>
+                <div id="usrConfirm"></div>
             </td>
         </tr>
         <tr>
@@ -156,12 +156,12 @@
 
 <script type="text/javascript">
     var divs = new Array();
-    divs[0] = "errFirst";
-    divs[1] = "errLast";
-    divs[2] = "errEmail";
-    divs[3] = "errUid";
-    divs[4] = "errPassword";
-    divs[5] = "errConfirm";
+    divs[0] = "FirstName";
+    divs[1] = "LastName";
+    divs[2] = "usrEmail";
+    divs[3] = "usrID";
+    divs[4] = "usrPassword";
+    divs[5] = "usrConfirm";
     function validate() {
         var inputs = new Array();
         inputs[0] = document.getElementById('first').value;
@@ -187,7 +187,7 @@
                 var atpos = inputs[i].indexOf("@");
                 var dotpos = inputs[i].lastIndexOf(".");
                 if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= inputs[i].length)
-                    document.getElementById('errEmail').innerHTML = "<span style='color: red'>Enter a valid email address!</span>";
+                    document.getElementById('usrEmail').innerHTML = "<span style='color: red'>Enter a valid email address!</span>";
                 else
                     document.getElementById(div).innerHTML = "OK!";
             }
@@ -195,7 +195,7 @@
                 var first = document.getElementById('password').value;
                 var second = document.getElementById('confirm').value;
                 if (second != first)
-                    document.getElementById('errConfirm').innerHTML = "<span style='color: red'>Your passwords don't match!</span>";
+                    document.getElementById('usrConfirm').innerHTML = "<span style='color: red'>Your passwords don't match!</span>";
                 else
                     document.getElementById(div).innerHTML = "OK!";
             }

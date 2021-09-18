@@ -204,6 +204,31 @@ a:hover {
   animation: pic 10s infinite;
 }
 
+.reviews {
+  width: 43%;
+  padding: 30px;
+  border: 10px solid #e9e9e9;
+  margin-top: 20px;
+  background: #fff;
+  overflow: auto;
+  box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 10%);
+
+  /* background: url(pictures/reviewer1.jpg); */
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 15px;
+  color: #8b8b8b;
+  line-height: 20px;
+
+   /* margin: 0;
+  padding: 0; */
+  
+}
+
+.reviews img{
+  margin: 20px;
+  border-radius: 90px;
+}
+
 /* ===============================
    Mobile Styles: 0px to 640px 
    ===============================
