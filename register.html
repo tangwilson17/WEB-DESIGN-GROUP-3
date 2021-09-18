@@ -22,53 +22,72 @@
 
     <header>
         <nav>
-          <ul>
-            <li><a href="home.html">Home Page</a></li>
-            <li><a href="room_status.html">Room Status</a></li>
-            <li><a href="register.html">Register Account</a></li>
-            
-          </ul>
+            <ul>
+                <li><a href="home.html">Home Page</a></li>
+                <li><a href="room_status.html">Room Status</a></li>
+                <li><a href="register.html">Register Account</a></li>
+    
+            </ul>
         </nav>
-      </header> 
-
-      <h1>Register Your Account</h1>
-      <table id="table1">
+    </header>
+    <B>CHOOSE ONE OF THESE HEADER TQ</B>
+    <h1>Register Your Account</h1>
+    <table id="table1">
+        <td></td>
+        <td>Register Your Account</td>
+        <td></td>
         <tr>
-          <td>First Name:</td>
-          <td><input type="text" id="first" onkeyup="validate();" /></td>
-          <td><div id="errFirst"></div></td>
+            <td>First Name:</td>
+            <td><input type="text" id="first" onkeyup="validate();" /></td>
+            <td>
+                <div id="errFirst"></div>
+            </td>
         </tr>
         <tr>
-          <td>Last Name:</td>
-          <td><input type="text" id="last" onkeyup="validate();"/></td>
-          <td><div id="errLast"></div></td>
+            <td>Last Name:</td>
+            <td><input type="text" id="last" onkeyup="validate();" /></td>
+            <td>
+                <div id="errLast"></div>
+            </td>
         </tr>
         <tr>
-          <td>Email:</td>
-          <td><input type="text" id="email" onkeyup="validate();"/></td>
-          <td><div id="errEmail"></div></td>
+            <td>Email:</td>
+            <td><input type="text" id="email" onkeyup="validate();" /></td>
+            <td>
+                <div id="errEmail"></div>
+            </td>
         </tr>
         <tr>
-          <td>User Id:</td>
-          <td><input type="text" id="uid" onkeyup="validate();"/></td>
-          <td><div id="errUid"></div></td>
+            <td>User Id:</td>
+            <td><input type="text" id="uid" onkeyup="validate();" /></td>
+            <td>
+                <div id="errUid"></div>
+            </td>
         </tr>
         <tr>
-          <td>Password:</td>
-          <td><input type="password" id="password" onkeyup="validate();"/></td>
-          <td><div id="errPassword"></div></td>
+            <td>Password:</td>
+            <td><input type="password" id="password" onkeyup="validate();" /></td>
+            <td>
+                <div id="errPassword"></div>
+            </td>
         </tr>
         <tr>
-          <td>Confirm Password:</td>
-          <td><input type="password" id="confirm" onkeyup="validate();"/></td>
-          <td><div id="errConfirm"></div></td>
+            <td>Confirm Password:</td>
+            <td><input type="password" id="confirm" onkeyup="validate();" /></td>
+            <td>
+                <div id="errConfirm"></div>
+            </td>
         </tr>
         <tr>
-          <td><input type="button" id="create" value="Create" onclick="validate();finalValidate();"/></td>
-          <td><div id="errFinal"></div></td>
-          <td></td>
+            <td><input type="button" id="create" value="Create" onclick="validate();finalValidate();genkey()" /></td>
+            <td>
+                <div id="errFinal"></div>
+            </td>
+            <td>
+                <p id="hotel_key"></p>
+            </td>
         </tr>
-    </table>
+        </table>
     
     </div>
     <div class="footer">
@@ -176,7 +195,19 @@
             if (document.getElementById(div).innerHTML == "OK!")
                 count = count + 1;
         }
-        if (count == 6)
+        if (count == 6){
             document.getElementById("errFinal").innerHTML = "All the data you entered is correct!!!";
+        }
     }
+    
+    function genkey(){
+        // document.getElementById('hotel_key').innerHTML;
+        // return Math.floor(Math.random() * (max - min)) + min;
+        var min = 1000;
+        var max = 9999;
+    // var rand = Math.floor(Math.random() * 1000);
+    var rand = Math.floor(Math.random() * (max - min)) + min;
+    document.getElementById('hotel_key').innerHTML = rand;
+    }
+
 </script>
