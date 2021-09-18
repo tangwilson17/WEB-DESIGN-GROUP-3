@@ -84,7 +84,7 @@
                 <div id="errFinal"></div>
             </td>
             <td>
-                <p id="hotel_key"></p>
+                <p id="hotel_key" style="display: none;"></p>
             </td>
         </tr>
         </table>
@@ -196,18 +196,20 @@
                 count = count + 1;
         }
         if (count == 6){
-            document.getElementById("errFinal").innerHTML = "All the data you entered is correct!!!";
+            document.getElementById("errFinal").innerHTML = "Here is the hotel key:";
         }
     }
     
     function genkey(){
-        // document.getElementById('hotel_key').innerHTML;
-        // return Math.floor(Math.random() * (max - min)) + min;
-        var min = 1000;
-        var max = 9999;
-    // var rand = Math.floor(Math.random() * 1000);
-    var rand = Math.floor(Math.random() * (max - min)) + min;
-    document.getElementById('hotel_key').innerHTML = rand;
+        if(document.getElementById("errFinal").innerHTML == "Here is the hotel key:"){
+            document.getElementById('hotel_key').style.display = "block";
+            var min = 1000;
+            var max = 9999;
+            var rand = Math.floor(Math.random() * (max - min)) + min;
+            document.getElementById('hotel_key').innerHTML = rand;
+        }else{
+            document.getElementById('hotel_key').style.display = "none";
+        }
     }
 
 </script>
