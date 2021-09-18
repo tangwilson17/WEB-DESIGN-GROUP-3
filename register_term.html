@@ -9,6 +9,7 @@
     <title>Home Page</title>
 
 
+
 </head>
 <body>
     <img src="pictures/Nothern Lagoon HOTEL.png" style="max-width: 100%">
@@ -25,7 +26,9 @@
         </nav>
       </header>
 
+
     <div class="content">
+
 
         <div style="margin-bottom: 2%;">
             <h3>Terms & Conditions</h3>
@@ -43,12 +46,15 @@
                 conditions create a legally binding agreement between you and Hotel
                 Malaysia.
             </p>
+
             <span ><input type="checkbox" id="terms_agree" onclick="proceed()"/>
               I agree to the Terms and Conditions, Return Policy & Privacy Policy.</span>
               <button type="button" id="redirect" style="display: none">Proceed</button>
               <p id="btn_response"></p>
+
         </div>
     </div>
+
 
 
     <div class="footer">
@@ -104,6 +110,7 @@
 </html>
 
 <script type="text/javascript">
+
 function proceed() {
   var cbx = document.getElementById("terms_agree");
   var btn = document.getElementById("redirect");
@@ -118,4 +125,5 @@ function proceed() {
 document.getElementById("redirect").onclick = function(){
   location.href="register.html"
 };
+
 </script>
