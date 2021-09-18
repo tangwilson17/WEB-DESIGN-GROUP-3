@@ -33,7 +33,8 @@ header {
 }
 
 header a {
-  margin-left: 5%;
+  display: block;
+  line-height: 2em;
 }
 
 nav ul {
@@ -78,7 +79,6 @@ a:hover {
 .title_header {
   background: transparent url(pictures/beautiful-front.jpg);
   background-repeat: no-repeat;
-  /* background-size: 100%; */
   background-color: rgb(180, 178, 178);
   background-blend-mode: darken;
   max-width: 100%;
