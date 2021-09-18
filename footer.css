@@ -30,6 +30,7 @@
   font-family: cursive;
   color: rgb(179, 171, 171);
   margin: 0;
+  margin-bottom: 5%;
   padding: 0;
 }
 
@@ -53,6 +54,12 @@
 .social ul li {
   display: inline-block;
   padding-right: 5px !important;
+}
+.col h3 {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  font-family: cursive;
+  letter-spacing: 0.25em;
 }
 .col ul a {
   text-decoration: none;
