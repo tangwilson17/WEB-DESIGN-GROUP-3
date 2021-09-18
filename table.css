@@ -3,22 +3,28 @@ body {
   height: 100%;
 }
 body {
-  /* background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
-  background: linear-gradient(45deg, #49a09d, #5f2c82); */
   font-family: sans-serif;
   font-weight: 100;
 }
+
 .container {
-  position:relative;
+  /* there's no container in register? */
+  position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
+
+content {
+  background: linear-gradient(45deg, #ccc5b4, #684a1d);
+}
+
 table {
   background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
   background: linear-gradient(45deg, #ccc5b4, #684a1d);
   width: 100%;
+
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
