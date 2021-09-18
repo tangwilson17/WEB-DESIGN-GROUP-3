@@ -1,17 +1,16 @@
 @charset "utf-8";
 
-/* <!-- Author - Tang Wilson --> */
+/* <!-- Author - Tang Wilson, all mine 100% --> */
 
 html {
   background: rgb(51, 51, 51) url(pictures/abstract-blur-hotel-interior.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: cursive;
 }
 
 body {
-  background-color: rgb(235, 223, 223);
   box-shadow: black, black -20px 0px 40px;
   display: -webkit-flex;
   display: flex;
@@ -23,6 +22,33 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+}
+
+p {
+  font-family: cursive;
+}
+
+header {
+  width: 100%;
+}
+
+header a {
+  display: block;
+  line-height: 2em;
+}
+
+nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, rgb(216, 210, 198), rgb(119, 92, 60));
+  -moz-column-width: 200px;
+  -webkit-column-width: 200px;
+  column-width: 130px;
+  -moz-column-gap: 25px;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  padding: 25px;
+  max-height: 100%;
 }
 
 nav ul li a {
@@ -38,6 +64,8 @@ nav ul li a {
 
 ul li {
   list-style-type: none;
+  line-height: 1.3em;
+  margin-bottom: auto;
 }
 
 a:hover {
@@ -51,7 +79,6 @@ a:hover {
 .title_header {
   background: transparent url(pictures/beautiful-front.jpg);
   background-repeat: no-repeat;
-  /* background-size: 100%; */
   background-color: rgb(180, 178, 178);
   background-blend-mode: darken;
   max-width: 100%;
@@ -73,7 +100,6 @@ a:hover {
   color: rgb(214, 203, 138);
   opacity: 0.8;
   font-family: Copperplate Gothic Light;
-
   font-size: 100px;
   font-weight: bold;
   padding: 15% 0;
@@ -85,129 +111,64 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  border-radius: 20px;
 }
 
-.heading_text-left {
+.heading-text-left {
   font-size: 20px;
   width: 40%;
   float: left;
-
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 30px;
-
+  margin-left: 3%;
   background-color: rgba(253, 250, 250, 0.555);
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
 }
-.heading_text-right {
+
+.heading-text-right {
   font-size: 20px;
   width: 40%;
-
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 150px;
   margin-right: 0px;
-
   float: right;
-
   background-color: rgba(253, 250, 250, 0.555);
-
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.service {
-  background-image: url(pictures/servicecounter.png);
-  background-repeat: no-repeat;
-
-  background-color: rgb(180, 178, 178);
-  /* background-blend-mode: darken; */
-  max-width: 60%;
-  height: 50%;
-  margin: auto;
-  
-  box-shadow: 0 0 25px 5px #000;
-  animation: pic 10s infinite;
+  border-radius: 20px;
 }
 
 .col ul a li {
   line-height: 1.2em;
 }
-header {
-  width: 100%;
-}
-
-nav ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  background: linear-gradient(to bottom, rgb(216, 210, 198), rgb(119, 92, 60));
-  -moz-column-width: 200px;
-  -webkit-column-width: 200px;
-  column-width: 130px;
-  -moz-column-gap: 25px;
-  -webkit-column-gap: 25px;
-  column-gap: 25px;
-  padding: 25px;
-  max-height: 100%;
-}
-
-p {
-  font-family: cursive;
-}
-
-/* .content {
-  position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: block;
-} */
 
 .content h1 {
   text-align: center;
 }
+
 .content p {
-  width: 35%;
-  float: right;
-  font-size: 1.4em;
-  text-align: center;
-  color: rgb(136, 255, 0);
-  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  color: rgb(0, 0, 0);
 }
 
 .content-1 {
   background-image: url(pictures/deluxe-bed-blurred.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
+  border-radius: 20px;
+  padding-bottom: 1%;
+  margin-top: 5%;
 }
 
-
-
-/* .content-2 {
+.content-2 {
   background-image: url(pictures/luxury-room-blurred.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
+  border-radius: 20px;
+  padding-bottom: 1%;
+  margin-top: 5%;
 }
 
 .content-3 {
@@ -215,18 +176,16 @@ p {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
-} */
+  border-radius: 20px;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
 
 .content img {
-  margin-left: 7%;
-  margin-top: 5%;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 .img:hover {
@@ -234,8 +193,40 @@ p {
   transition: 2s;
 }
 
-header a {
-  margin-left: 5%;
+.service {
+  background-image: url(pictures/servicecounter.png);
+  background-repeat: no-repeat;
+  background-color: rgb(180, 178, 178);
+  max-width: 60%;
+  height: 50%;
+  margin: auto;
+  box-shadow: 0 0 25px 5px #000;
+  animation: pic 10s infinite;
+}
+
+.reviews {
+  width: 43%;
+  padding: 30px;
+  border: 10px solid #e9e9e9;
+  margin-top: 20px;
+  background: #fff;
+  overflow: auto;
+  box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 10%);
+
+  /* background: url(pictures/reviewer1.jpg); */
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 15px;
+  color: #8b8b8b;
+  line-height: 20px;
+
+   /* margin: 0;
+  padding: 0; */
+  
+}
+
+.reviews img{
+  margin: 20px;
+  border-radius: 90px;
 }
 
 /* ===============================
@@ -243,26 +234,8 @@ header a {
    ===============================
 */
 @media only screen and (max-width: 640px) {
-  section h1 {
-    font-size: 1.5em;
-  }
-
-  section p {
-    font-size: 0.9em;
-  }
-
   nav {
     -webkit-order: 99;
     order: 99;
   }
-
-  footer {
-    -webkit-order: 100;
-    order: 100;
-  }
 }
-
-/* =============================================
-   Tablet and Desktop Styles: greater than 640px
-   =============================================
-*/

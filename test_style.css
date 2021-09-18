@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* <!-- Author - Tang Wilson --> */
+
+html {
+  background: rgb(51, 51, 51) url(pictures/abstract-blur-hotel-interior.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+  background-color: rgb(235, 223, 223);
+  box-shadow: black, black -20px 0px 40px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 0px auto;
+  max-width: 80%;
+  background-image: url(pictures/white-wood.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.video-border {
+  background-image: url(pictures/clean-blue-background-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* ---------- CONTENT 1 ---------- */
+p {
+  font-family: cursive;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  /* width: 35%; */
+  /* float: right; */
+  /* font-size: 25px; */
+  text-align: justify;
+  color: rgb(231, 223, 199);
+  /* font-weight: bold; */
+}
+
+.content-1 {
+  background-image: url(pictures/deluxe-bed-blurred.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* display: block; */
+  /* width: auto; */
+  /* height: 33em; */
+  /* border-radius: 20px; */
+  /* margin-bottom: 5%;
+  margin-top: 10%; */
+}
+
+/* ---------- CONTENT 1 END ---------- */
+
+
+/* 
+.content img {
+  margin-left: 4%;
+  margin-top: 5%;
+  width: 500px;
+} */
+
+.img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+header a {
+  margin-left: 5%;
+}
