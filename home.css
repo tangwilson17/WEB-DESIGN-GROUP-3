@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* HTML and Body styles */
+
+html {
+  /* background: rgb(51, 51, 51) url(pictures/abstract-blur-hotel-interior.jpg); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+  /* background-color: rgb(235, 223, 223); */
+  background-color: black;
+  /* box-shadow: black, black -20px 0px 40px; */
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.title_header {
+  background-image: url(pictures/beautiful-front.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50%;
+  /* box-shadow: 0 0 50px 5px #000; */
+  /* animation: pic 15s infinite; */
+}
+
+/* @keyframes pic {
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: -200px;
+  }
+} */
+
+.title_header h1 {
+  color: rgb(214, 203, 138);
+  opacity: 0.8;
+  font-family: Copperplate Gothic Light;
+  font-size: 100px;
+  font-weight: bold;
+  padding: 15% 0;
+  text-align: center;
+}
+
+.header_intro {
+  /* padding: 200px; */
+  background-color: rgba(3, 5, 3, 0.9);
+  margin: 0 auto;
+}
+
+.intro-left {
+  font-size: 20px;
+  width: 45%;
+  float: left;
+  margin: auto;
+  margin-left: 3%;
+  color: goldenrod;
+  padding: 12px;
+  height: 200px;
+  text-align: justify;
+  background: rgba(3, 5, 3, 0.8);
+}
+
+.intro-right {
+  font-size: 20px;
+  width: 45%;
+  float: right;
+  margin: auto;
+  margin-right: 3%;
+  color: goldenrod;
+  padding: 12px;
+  height: 200px;
+  text-align: justify;
+  background: rgba(3, 5, 3, 0.8);
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+@media only screen and (max-width: 640px) {
+  section h1 {
+    font-size: 1.5em;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  nav {
+    -webkit-order: 99;
+    order: 99;
+  }
+
+  footer {
+    -webkit-order: 100;
+    order: 100;
+  }
+}
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 640px
+   =============================================
+*/
