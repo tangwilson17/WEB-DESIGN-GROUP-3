@@ -11,7 +11,9 @@ html {
 }
 
 body {
-  background-color: rgb(235, 223, 223);
+
+  /* background-color: rgb(235, 223, 223); */
+
   box-shadow: black, black -20px 0px 40px;
   display: -webkit-flex;
   display: flex;
@@ -80,7 +82,55 @@ a:hover {
   font-size: 100px;
   font-weight: bold;
   padding: 15% 0;
-  text-align: center;
+  text-align: ce
+}
+
+.video-border {
+  background-image: url(pictures/clean-blue-background-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
+
+.heading-text-left {
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3%;
+  background-color: rgba(253, 250, 250, 0.555);
+  border-radius: 20px;
+}
+
+.heading-text-right {
+  font-size: 20px;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 150px;
+  margin-right: 0px;
+  float: right;
+  background-color: rgba(253, 250, 250, 0.555);
+  border-radius: 20px;
+}
+
+.service {
+  background-image: url(pictures/servicecounter.png);
+  background-repeat: no-repeat;
+  background-color: rgb(180, 178, 178);
+  /* background-blend-mode: darken; */
+  max-width: 60%;
+  height: 50%;
+  margin: auto;
+  box-shadow: 0 0 25px 5px #000;
+  animation: pic 10s infinite;
+}
+
+.col ul a li {
+  line-height: 1.2em;
+
 }
 
 .video-border {
@@ -159,9 +209,19 @@ nav ul {
   max-height: 100%;
 }
 
+
+/* p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+p{
+  font-family: cursive;
+}
+
 p {
   font-family: cursive;
 }
+
 
 /* .content {
   position: relative;
@@ -173,13 +233,26 @@ p {
 .content h1 {
   text-align: center;
 }
-.content p {
+
+
+/* .content p {
   width: 35%;
   float: right;
   font-size: 1.4em;
-  text-align: center;
+  text-align: justify;
   color: rgb(136, 255, 0);
   font-weight: bold;
+} */
+
+.content p {
+  /* width: 35%; */
+  /* float: right; */
+  /* font-size: 25px; */
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  /* font-weight: bold; */
+
 }
 
 .content-1 {
@@ -188,15 +261,12 @@ p {
   background-size: 100% 100%;
 
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
+  /* height: 33em; */
+  border-radius: 20px;
+  /* margin-bottom: 5%; */
+  padding-bottom: 1%;
+  margin-top: 5%;
 }
-
 
 
 .content-2 {
@@ -204,13 +274,12 @@ p {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
+
+  border-radius: 20px;
+  /* margin-bottom: 5%; */
+  padding-bottom: 1%;
+  margin-top: 5%;
+
 }
 
 .content-3 {
@@ -218,19 +287,21 @@ p {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
-  height: 33em;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin-bottom: 5%;
-  margin-top: 10%;
+
+  border-radius: 20px;
+  /* margin-bottom: 5%; */
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  margin-top: 5%;
 }
 
 .content img {
-  margin-left: 7%;
-  margin-top: 5%;
+  /* margin-left: 4%;
+  margin-top: 5%; */
   width: 500px;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .img:hover {
