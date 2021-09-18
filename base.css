@@ -145,10 +145,13 @@ nav ul {
   max-height: 100%;
 }
 
-p {
+/* p {
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
+p{
+  font-family: cursive;
+}
 /* .content {
   position: relative;
   margin-left: 5%;
