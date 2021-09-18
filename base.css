@@ -18,8 +18,8 @@ body {
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   margin: 0px auto;
-  max-width: 80%;
-  /* background-image: url(pictures/white-wood.jpg); */
+  max-width: 1200px;
+  background-image: url(pictures/white-wood.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
