@@ -108,6 +108,7 @@ a:hover {
   text-align: center;
 }
 
+/* Video styling autoplay  */
 .video-border {
   background-image: url(pictures/blurred-room-with-bed_1203-1351.jpg);
   background-repeat: no-repeat;
@@ -225,7 +226,6 @@ a:hover {
   margin: 20px;
   border-radius: 90px;
 }
-
 
 /* Author : Chi Lok's animate moving picture  */
 .service {
