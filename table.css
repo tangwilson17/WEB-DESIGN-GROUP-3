@@ -1,24 +1,4 @@
-html,
-body {
-  height: 100%;
-}
-body {
-  font-family: sans-serif;
-  font-weight: 100;
-}
-
-.container {
-  /* there's no container in register? */
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-content {
-  background: linear-gradient(45deg, #ccc5b4, #684a1d);
-}
+/* Author : Tang Wilson */
 
 table {
   background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
@@ -49,7 +29,6 @@ tbody td {
   position: relative;
 }
 tbody td:hover:before {
-  /* content: ""; */
   position: absolute;
   left: 0;
   right: 0;

@@ -1,4 +1,5 @@
 /* <!-- Author - Tang Wilson --> */
+
 .footer {
   width: 100%;
   position: relative;
@@ -82,21 +83,7 @@
   -moz-transition: 0.1s;
 }
 
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-  .social h1 {
-    margin: 0px;
-  }
-}
+
 @media only screen and (max-width: 950px) {
   .footer .col {
     width: 33%;
@@ -108,19 +95,4 @@
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 500px) {
-  .footer .col {
-    width: 50%;
-  }
-  .footer .col h1 {
-    font-size: 14px;
-  }
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
-  }
-}
+
