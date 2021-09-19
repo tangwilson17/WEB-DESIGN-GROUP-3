@@ -107,11 +107,18 @@ a:hover {
 }
 
 .video-border {
-  background-image: url(pictures/clean-blue-background-2.jpg);
+  background-image: url(pictures/blurred-room-with-bed_1203-1351.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   border-radius: 20px;
+}
+
+.video-border p {
+  
+  background-color: rgba(255, 255, 255, 0.596);
+  border-radius: 20px;
+  margin:5%;
 }
 
 .heading-text-left {
@@ -149,6 +156,8 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.7);
   text-align: justify;
   color: rgb(0, 0, 0);
+  margin: 5%;
+  border-radius: 5px;
 }
 
 .content-1 {
@@ -205,7 +214,7 @@ a:hover {
 }
 
 .reviews {
-  width: 43%;
+  width: 40%;
   padding: 30px;
   border: 10px solid #e9e9e9;
   margin-top: 20px;
